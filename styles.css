@@ -1,0 +1,49 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image */
+body {
+    background-image: url('https://i.ibb.co/9pD4gTM/Cloud-BG.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the background link to cover the entire page */
+.background-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the link below other content */
+}
+
+/* Center the logo and link directly below */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency to the background */
+    text-align: center; /* Center the contents horizontally */
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the maximum logo size as needed */
+}
+
+.moved-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333; /* Adjust link color as needed */
+    display: block; /* Display the link as a block element */
+    margin-top: 10px; /* Add space between the logo and the link */
+}
+
+/* Style the main content area as needed */
+main {
+    padding: 20px;
+}
